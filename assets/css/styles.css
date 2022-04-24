@@ -7,13 +7,13 @@
 
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-
-  --first-hue: 207;
-  --sat: 90%;
-  --lig: 72%;
+  /* brown 32,76,84 */
+  --first-hue: 32;
+  --sat: 76%;
+  --lig: 84%;
   --second-hue: 219;
   --first-color: hsl(var(--first-hue), var(--sat), var(--lig));
-  --first-color-alt: hsl(var(--first-hue), var(--sat), 68%); /* -4% */
+  --first-color-alt: hsl(var(--first-hue), var(--sat), 80%); /* -4% */
   --title-color: hsl(var(--second-hue), 15%, 95%);
   --text-color: hsl(var(--second-hue), 8%, 75%);
   --text-color-light: hsl(var(--second-hue), 4%, 55%);
